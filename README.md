@@ -32,7 +32,8 @@ An MDP is defined by the states, the actions, the transition rules and the rewar
 # Policy
 Given a state s, we choose the action a that maximizes Q(s,a)
 
-# Algorithm - we precompute all Q values iteratively, repeating the steps below a 1000 times
+# Algorithm
+We precompute all Q values iteratively, repeating the steps below a 1000 times
 - we initialize the matrix with all Q values to 0
 - we add the big reward to the destination bin
 - we precompute all Q values through random iterations:
