@@ -12,7 +12,7 @@ Option to include intermediate destinations as constraints
 
 The provided environment is a sper the following:
 
-![](asset/environment.PNG)
+![](asset/environment.png)
 
 
 # Q Learning implementation
