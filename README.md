@@ -45,4 +45,4 @@ Given a state s, we choose the action a that maximizes Q(s,a)
 
 # Output
 With intermediate destinations, we proceed with a MDP on each on the legs
-!()[sample_route.png]
+!()[asset/sample_route.png]
