@@ -8,7 +8,7 @@ Given an environment (logistic warehouse with bin areas to pick up references), 
 We will use Q Learning algorithm.
 Option to include intermediate destinations as constraints
 The provided environment is a sper the following:
-![](./asset/environment.png)
+![](asset/environment.png)
 
 
 # Q Learning implementation
