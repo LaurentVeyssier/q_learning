@@ -5,9 +5,13 @@ optimal logistic route with Q_learning
 # Project objective
 
 Given an environment (logistic warehouse with bin areas to pick up references), find the optimal route from a bin X to a bin Y.
+
 We will use Q Learning algorithm.
+
 Option to include intermediate destinations as constraints
+
 The provided environment is a sper the following:
+
 ![](asset/environment.PNG)
 
 
