@@ -1,5 +1,5 @@
-# q_learning
-optimal logistic route with Q_learning
+# Q Learning
+optimal logistic route with Q_learning. Taken from ![Udemy AI course](https://www.udemy.com/course/artificial-intelligence-az/)
 
 
 # Project objective
