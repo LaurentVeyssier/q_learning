@@ -10,7 +10,7 @@ We will use Q Learning algorithm.
 
 Option to include intermediate destinations as constraints
 
-The provided environment is a sper the following:
+The provided environment is the following:
 
 ![](asset/environment.png)
 
