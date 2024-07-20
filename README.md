@@ -30,21 +30,21 @@ An MDP is defined by the states, the actions, the transition rules and the rewar
 - let's define the transition rules. Given a state s, we use uniform probability distribution and assign equal probability to each of the possible actions. Each action will have the same chance to be activated
 
 # Policy
-Given a state s, we choose the action a that maximizes Q(s,a)
+Given a state s, we choose the action a that maximizes Q(s,a). Q(s,a) is the value of action a taken in state s.
 
 # Algorithm
-We precompute all Q values iteratively, repeating the steps below a 1000 times
+We precompute all Q values iteratively using Bellman equation, repeating the steps below multiple times:
 - we initialize the matrix with all Q values to 0
 - we add the big reward to the destination bin
 - we precompute all Q values through random iterations:
   - randomly select a state
   - randomly select one of the possible actions (also defining the next state)
-  - collect the immediate reward
-  - compute the temperal difference using Bellman equation:
-    - dt = Reward + gamma x max (Q values for next state) - Q value for state s and action a
-  - update Q value for state s and action a by adding learning rate alpha x dt to its value
+  - collect the immediate reward R(s,a)
+  - compute the temperal difference:
+    - td = Reward + gamma x max (Q values for next state) - Q(s,a)
+  - update Q(s,a) by adding learning rate alpha x td to its value: Q(s,a) = Q(s,a) + alpha x td
 
 # Output
-With intermediate destinations, we proceed with a MDP on each on the legs
+If provided with intermediate destinations, we proceed by implementing MDP to each one the legs
 
 ![](asset/sample_route.png)
