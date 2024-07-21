@@ -40,7 +40,7 @@ We precompute all Q values iteratively using Bellman equation, repeating the ste
   - randomly select a state
   - randomly select one of the possible actions (also defining the next state)
   - collect the immediate reward R(s,a)
-  - compute the temperal difference:
+  - compute the temporal difference:
     - td = Reward + gamma x max (Q values for next state) - Q(s,a)
   - update Q(s,a) by adding learning rate alpha x td to its value: Q(s,a) = Q(s,a) + alpha x td
 
